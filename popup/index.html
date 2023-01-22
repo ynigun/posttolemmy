@@ -10,20 +10,20 @@
             <p class="title is-family-monospace is-4 mt-4 mx-2">Welcome to POST to /lemmy</p>
             <div class="field">
                 <p class="control">
-                    <input type="text" id="inputUrl" class="input is-primary" placeholder="URL de votre lemmy">
+                    <input type="text" id="inputUrl" class="input is-primary" placeholder="URL of your lemmy">
                     <p class="hidden has-text-danger" id="urlEmpty">This field is required</p>
                     <p class="hidden has-text-danger" id="urlNoMatch">This is not a valid URL</p>
                 </p>
             </div>
             <div class="field">
                 <p class="control">
-                    <input type="text" id="inputUsername" class="input is-primary" placeholder="Votre Login pour lemmy">
+                    <input type="text" id="inputUsername" class="input is-primary" placeholder="Your Login for lemmy">
                     <p class="hidden has-text-danger" id="loginEmpty">This field is required</p>
                 </p>
             </div>
             <div class="field has-addons">
                 <p class="control is-expanded">
-                    <input type="password" id="inputPassword" class="input is-primary" placeholder="Votre mot de passe lemmy">
+                    <input type="password" id="inputPassword" class="input is-primary" placeholder="Your lemmy password">
                 </p>
                 <p class="control">
                     <a id="inputPasswordToggle" class="button is-primary is-outlined"><i data-feather="eye-off"></i></a>
@@ -50,7 +50,7 @@
                                 <div class="dropdown-item">
                                     <div class="field">
                                         <p class="control">
-                                            <input type="text" id="dropInputUrl" class="input is-primary is-small" placeholder="URL de votre lemmy">
+                                            <input type="text" id="dropInputUrl" class="input is-primary is-small" placeholder="URL of your lemmy">
                                         </p>
                                         <p class="hidden has-text-danger" id="dropUrlEmpty">This field is required</p>
                                         <p class="hidden has-text-danger" id="dropUrlNoMatch">This is not a valid URL</p>
@@ -68,7 +68,7 @@
                                     <div>
                                         <div class="field has-addons">
                                             <p class="control">
-                                                <input type="password" id="dropInputPassword" class="input is-primary is-small" placeholder="Mot de passe">
+                                                <input type="password" id="dropInputPassword" class="input is-primary is-small" placeholder="Password">
                                             </p>
                                             <p class="control">
                                                 <a class="button is-outlined is-primary is-small" id="dropInputPasswordToggle"><i data-feather="eye-off"></i></a>
@@ -101,11 +101,11 @@
             </div>
             <div class="field mt-2">
                 <p class="control">
-                    <input type="text" placeholder="Titre" id="postTitle" class="is-primary input">
+                    <input type="text" placeholder="Title" id="postTitle" class="is-primary input">
                 </p>
                 <p class="has-text-danger hidden" id="titleEmpty">This field is required</p>
             </div>
-            <textarea id="postText" class="textarea is-primary" placeholder="Commentaire..."></textarea>
+            <textarea id="postText" class="textarea is-primary" placeholder="Remark..."></textarea>
             <a class="button is-primary is-fullwidth is-outlined" id="buttonPreview">Preview <i class="ml-3" data-feather="eye"></i></a>
             <span id="selectPlace"></span>
             <div class="modal" id="previewModal">
